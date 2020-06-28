@@ -1,8 +1,17 @@
 .main{
     border: 2px  solid grey;
-    width: 200px;
-margin: 0 auto;
+    height: 385px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 100px;    
+    background-color: #BB8FCE;
+    padding: 15px;
+    border-radius: 30px;
+
 }
+
+
+
 
 .input{
     width: 95%;
@@ -10,17 +19,120 @@ margin: 0 auto;
     color: #fff;
 }
 .clearBtn{
-    width: 100%;
-    margin-top: 10%;
-    background-color: green;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 97px;
+margin-bottom: 10px;
 }
-.btn{
+button{
     background-color: grey;
     width: 45px;
     margin: 1px;
+    height:40px;
+    margin-left: 10px;
+
+
+
 }
 .lastbtn{
 background-color: grey;
 width: 97px;
 margin-top: 5px;
+}
+
+button{
+    height:40px;
+    width: 45px;
+    margin-left: 10px;
+    box-shadow: 4px 5px 1px blue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+margin-bottom: 10px;
+
+}
+
+button:hover
+{
+    opacity: 0.5;
+    
+} 
+
+
+.screen input {
+    height: 60px;
+    width: 235px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    text-align: right;
+    background:linear-gradient(transparent,lightblue);
+    color: white;
+    text-shadow: 1px 2px grey;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.input{
+    background-color: rebeccapurple;
+    color: white;
+}
+input:hover{
+    background-color: springgreen;
+    color: white;
+
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.row {
+    width: 100%;
+    height: auto;
+}
+
+.col-1 {
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+
+.col-2 {
+    height: 550px;
+    width: 40%;
+    background:linear-gradient(transparent,blue);
+    float: left;
+}
+.calculator {
+    margin-top: 80px;
+    height: 385px;
+    width: 250px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    .col-1 {
+        display: none;
+    }
+
+    .col-2 {
+        height: 600px;
+        width: 100%;
+        background:linear-gradient(transparent,blue);
+    }
+    .col-3 {
+        display: none;
+    }
 }

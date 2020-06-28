@@ -12,16 +12,21 @@
 
 <!-- Calculator -->
 
+<div class="row">
 
+    <div class="col-1"></div>
+    <div class="col-2">
 <div class="main">
 
-<div >
-    <input id="value" class="input" type="text" >
+<div class="screen" >
+    <input id="value" class="input" type="text" >  
 </div>
-<div>
-    <button class="clearBtn" onclick="clearValue()">
+<div >
+    <button class="clearBtn"  onclick="clearValue()" style="background-color: lightblue;color: black ">
         C 
     </button>
+
+    <button class="clearBtn"  onclick="clearValue()" style="background-color:crimson;color: white;">Del</button>
 </div>
 
 <div>
@@ -29,7 +34,7 @@
 <button class="btn" onclick="number('7')">7</button>
 <button class="btn" onclick="number('8')"> 8 </button>
 <button class="btn" onclick="number ('9')">9</button>
-<button class="btn" onclick="number('*')">X</button>
+<button class="btn" onclick="number('*')" style="background-color: red;color: black;">X</button>
 
 
 </div>
@@ -37,7 +42,7 @@
     <button class="btn" onclick="number('4')">4</button>
     <button class="btn" onclick="number('5')"> 5</button>
     <button class="btn" onclick="number('6')"> 6</button>
-    <button class="btn" onclick="number('-')"> - </button>
+    <button class="btn" onclick="number('-')"  style="background-color: red;color: black;"> - </button>
 
 </div>
 
@@ -45,18 +50,21 @@
     <button class="btn" onclick="number('1')">1</button>
     <button class="btn" onclick="number('2')">2</button>
     <button class="btn" onclick="number('3')">3</button>
-    <button class="btn" onclick="number('+')">+ </button>
+    <button class="btn" onclick="number('+')" style="background-color: red;color: black;">+ </button>
 
 </div>
 <div>
     <button class="lastbtn" onclick="number('0')">0</button>
-    <button class="lastbtn" onclick="getResult ()">=</button>
+    <button class="lastbtn" onclick="getResult ()" style="width: 100px;background-color: green;color: white">=</button>
    
 </div>
 
 </div>
-
-
+<center><h5 style="color:white;font-size:large">&copy;2020 | All right reserved by<a style="color:white;font-size:large;"> Abu Bakar Umer</a> </h5></center>
+ 
+    </div>
+        
+</div>
 
 
 
@@ -70,4 +78,22 @@
 
 </body>
 <script src="app.js"></script>
-</html>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
