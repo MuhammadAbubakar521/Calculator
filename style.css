@@ -1,0 +1,26 @@
+.main{
+    border: 2px  solid grey;
+    width: 200px;
+margin: 0 auto;
+}
+
+.input{
+    width: 95%;
+    background-color: grey;
+    color: #fff;
+}
+.clearBtn{
+    width: 100%;
+    margin-top: 10%;
+    background-color: green;
+}
+.btn{
+    background-color: grey;
+    width: 45px;
+    margin: 1px;
+}
+.lastbtn{
+background-color: grey;
+width: 97px;
+margin-top: 5px;
+}
